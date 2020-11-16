@@ -1,0 +1,119 @@
+* {
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    margin: 0 ;
+    color: #585858;
+}
+
+p, a {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/****HEADER****/
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    justify-items: center;
+}
+
+
+/****NAVIGATION****/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-left {
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+
+.navbar-left a {
+    margin-right: 15px;
+}
+
+.navbar-right {
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.navbar-right a {
+    margin-right: 15px;
+}
+
+/****BUTTON****/
+button {
+    background-color: #df1918;
+    color: #fff;
+    border: none;
+    padding: 10px 2.5em;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+
+
+
+/****SHOP****/
+.shop {
+    background-color: #fff7d8;
+    display: flex;
+}
+
+.shop-text {
+    justify-content: flex-end;
+}
+
+
+
+/****NEWSLETTER****/
+.newsletter {
+    display: flex;
+    height: 50vh;
+    background-color: #dcf2ff;
+}
+
+.newsletter-img {
+    justify-content: flex-start;
+}
+#subscribe {
+    background-color: #df1918;
+    color: #fff;
+    border: none;
+    padding: 8px 2.5em;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+
+
+/****FOOTER****/
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+footer {
+    background-color: #a0cdca;
+    color: #000;
+    margin: 0;
+    padding: 10px;
+}
+
+footer p {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    text-align: center;
+}
